@@ -27,6 +27,71 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\TrainingResults\\TrainingResults.Backend\\TrainingResults.Core\\TrainingResults.Core.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingResults\\TrainingResults.Backend\\TrainingResults.Core\\TrainingResults.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\TrainingResults\\TrainingResults.Backend\\TrainingResults.Core\\TrainingResults.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\TrainingResults\\TrainingResults.Backend\\TrainingResults.Core\\TrainingResults.Core.csproj",
+        "projectName": "TrainingResults.Core",
+        "projectPath": "D:\\Programming\\Projects\\TrainingResults\\TrainingResults.Backend\\TrainingResults.Core\\TrainingResults.Core.csproj",
+        "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\TrainingResults\\TrainingResults.Backend\\TrainingResults.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
